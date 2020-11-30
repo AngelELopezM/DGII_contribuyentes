@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="dgii_contribuyenteModelStoreContainer" CdmEntityContainer="DGII_entities">
+    <EntitySetMapping Name="datos">
+      <EntityTypeMapping TypeName="dgii_contribuyenteModel.dato">
+        <MappingFragment StoreEntitySet="datos">
+          <ScalarProperty Name="situacion" ColumnName="situacion" />
+          <ScalarProperty Name="estado" ColumnName="estado" />
+          <ScalarProperty Name="fecha_fundacion" ColumnName="fecha_fundacion" />
+          <ScalarProperty Name="producto" ColumnName="producto" />
+          <ScalarProperty Name="empresa2" ColumnName="empresa2" />
+          <ScalarProperty Name="empresa" ColumnName="empresa" />
+          <ScalarProperty Name="RNC" ColumnName="RNC" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

@@ -1,0 +1,84 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+  <!-- EF Runtime content -->
+  <edmx:Runtime>
+    <!-- SSDL content -->
+    <edmx:StorageModels>
+    <Schema Namespace="dgii_contribuyenteModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+        <EntityType Name="datos">
+          <Key>
+            <PropertyRef Name="RNC" />
+          </Key>
+          <Property Name="RNC" Type="varchar" MaxLength="50" Nullable="false" />
+          <Property Name="empresa" Type="varchar" MaxLength="400" />
+          <Property Name="empresa2" Type="varchar" MaxLength="400" />
+          <Property Name="producto" Type="varchar" MaxLength="100" />
+          <Property Name="fecha_fundacion" Type="varchar" MaxLength="100" />
+          <Property Name="estado" Type="varchar" MaxLength="30" />
+          <Property Name="situacion" Type="varchar" MaxLength="50" />
+        </EntityType>
+        <EntityContainer Name="dgii_contribuyenteModelStoreContainer">
+          <EntitySet Name="datos" EntityType="Self.datos" Schema="dbo" store:Type="Tables" />
+        </EntityContainer>
+      </Schema></edmx:StorageModels>
+    <!-- CSDL content -->
+    <edmx:ConceptualModels>
+      <Schema Namespace="dgii_contribuyenteModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+        <EntityContainer Name="DGII_entities" annotation:LazyLoadingEnabled="true">
+          <EntitySet Name="datos" EntityType="dgii_contribuyenteModel.dato" />
+        </EntityContainer>
+        <EntityType Name="dato">
+          <Key>
+            <PropertyRef Name="RNC" />
+          </Key>
+          <Property Name="RNC" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="empresa" Type="String" MaxLength="400" FixedLength="false" Unicode="false" />
+          <Property Name="empresa2" Type="String" MaxLength="400" FixedLength="false" Unicode="false" />
+          <Property Name="producto" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+          <Property Name="fecha_fundacion" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+          <Property Name="estado" Type="String" MaxLength="30" FixedLength="false" Unicode="false" />
+          <Property Name="situacion" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+        </EntityType>
+      </Schema>
+    </edmx:ConceptualModels>
+    <!-- C-S mapping content -->
+    <edmx:Mappings>
+      <Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+        <EntityContainerMapping StorageEntityContainer="dgii_contribuyenteModelStoreContainer" CdmEntityContainer="DGII_entities">
+          <EntitySetMapping Name="datos">
+            <EntityTypeMapping TypeName="dgii_contribuyenteModel.dato">
+              <MappingFragment StoreEntitySet="datos">
+                <ScalarProperty Name="situacion" ColumnName="situacion" />
+                <ScalarProperty Name="estado" ColumnName="estado" />
+                <ScalarProperty Name="fecha_fundacion" ColumnName="fecha_fundacion" />
+                <ScalarProperty Name="producto" ColumnName="producto" />
+                <ScalarProperty Name="empresa2" ColumnName="empresa2" />
+                <ScalarProperty Name="empresa" ColumnName="empresa" />
+                <ScalarProperty Name="RNC" ColumnName="RNC" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+        </EntityContainerMapping>
+      </Mapping>
+    </edmx:Mappings>
+  </edmx:Runtime>
+  <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <Connection>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="MetadataArtifactProcessing" Value="EmbedInOutputAssembly" />
+      </DesignerInfoPropertySet>
+    </Connection>
+    <Options>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="ValidateOnBuild" Value="true" />
+        <DesignerProperty Name="EnablePluralization" Value="true" />
+        <DesignerProperty Name="IncludeForeignKeysInModel" Value="true" />
+        <DesignerProperty Name="UseLegacyProvider" Value="false" />
+        <DesignerProperty Name="CodeGenerationStrategy" Value="None" />
+      </DesignerInfoPropertySet>
+    </Options>
+    <!-- Diagram content (shape and connector positions) -->
+    <Diagrams></Diagrams>
+  </Designer>
+</edmx:Edmx>

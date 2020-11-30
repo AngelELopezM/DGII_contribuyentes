@@ -1,0 +1,14 @@
+C:\Users\enman\OneDrive\Escritorio\C#\DGII_contribuyentes\DGII_contribuyentes\bin\Debug\DGII_contribuyentes.exe.config
+C:\Users\enman\OneDrive\Escritorio\C#\DGII_contribuyentes\DGII_contribuyentes\bin\Debug\DGII_contribuyentes.exe
+C:\Users\enman\OneDrive\Escritorio\C#\DGII_contribuyentes\DGII_contribuyentes\bin\Debug\DGII_contribuyentes.pdb
+C:\Users\enman\OneDrive\Escritorio\C#\DGII_contribuyentes\DGII_contribuyentes\obj\Debug\DGII_contribuyentes.csprojAssemblyReference.cache
+C:\Users\enman\OneDrive\Escritorio\C#\DGII_contribuyentes\DGII_contribuyentes\obj\Debug\DGII_contribuyentes.Form1.resources
+C:\Users\enman\OneDrive\Escritorio\C#\DGII_contribuyentes\DGII_contribuyentes\obj\Debug\DGII_contribuyentes.Properties.Resources.resources
+C:\Users\enman\OneDrive\Escritorio\C#\DGII_contribuyentes\DGII_contribuyentes\obj\Debug\DGII_contribuyentes.csproj.GenerateResource.cache
+C:\Users\enman\OneDrive\Escritorio\C#\DGII_contribuyentes\DGII_contribuyentes\obj\Debug\DGII_contribuyentes.exe
+C:\Users\enman\OneDrive\Escritorio\C#\DGII_contribuyentes\DGII_contribuyentes\obj\Debug\DGII_contribuyentes.pdb
+C:\Users\enman\OneDrive\Escritorio\C#\DGII_contribuyentes\DGII_contribuyentes\bin\Debug\EntityFramework.dll
+C:\Users\enman\OneDrive\Escritorio\C#\DGII_contribuyentes\DGII_contribuyentes\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\enman\OneDrive\Escritorio\C#\DGII_contribuyentes\DGII_contribuyentes\bin\Debug\EntityFramework.xml
+C:\Users\enman\OneDrive\Escritorio\C#\DGII_contribuyentes\DGII_contribuyentes\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\enman\OneDrive\Escritorio\C#\DGII_contribuyentes\DGII_contribuyentes\obj\Debug\DGII_contribuyentes.csproj.CopyComplete

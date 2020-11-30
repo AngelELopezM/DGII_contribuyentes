@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="dgii_contribuyenteModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="datos">
+    <Key>
+      <PropertyRef Name="RNC" />
+    </Key>
+    <Property Name="RNC" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="empresa" Type="varchar" MaxLength="400" />
+    <Property Name="empresa2" Type="varchar" MaxLength="400" />
+    <Property Name="producto" Type="varchar" MaxLength="100" />
+    <Property Name="fecha_fundacion" Type="varchar" MaxLength="100" />
+    <Property Name="estado" Type="varchar" MaxLength="30" />
+    <Property Name="situacion" Type="varchar" MaxLength="50" />
+  </EntityType>
+  <EntityContainer Name="dgii_contribuyenteModelStoreContainer">
+    <EntitySet Name="datos" EntityType="Self.datos" Schema="dbo" store:Type="Tables" />
+  </EntityContainer>
+</Schema>

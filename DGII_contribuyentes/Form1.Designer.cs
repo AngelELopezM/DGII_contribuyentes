@@ -42,6 +42,7 @@
             this.textBox4 = new System.Windows.Forms.TextBox();
             this.label3 = new System.Windows.Forms.Label();
             this.textBox5 = new System.Windows.Forms.TextBox();
+            this.btn_sicnronizar = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -167,11 +168,22 @@
             this.textBox5.Size = new System.Drawing.Size(160, 22);
             this.textBox5.TabIndex = 15;
             // 
+            // btn_sicnronizar
+            // 
+            this.btn_sicnronizar.Location = new System.Drawing.Point(554, 117);
+            this.btn_sicnronizar.Name = "btn_sicnronizar";
+            this.btn_sicnronizar.Size = new System.Drawing.Size(168, 51);
+            this.btn_sicnronizar.TabIndex = 16;
+            this.btn_sicnronizar.Text = "sincronizar";
+            this.btn_sicnronizar.UseVisualStyleBackColor = true;
+            this.btn_sicnronizar.Click += new System.EventHandler(this.btn_sicnronizar_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(948, 597);
+            this.Controls.Add(this.btn_sicnronizar);
             this.Controls.Add(this.textBox5);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.textBox4);
@@ -211,6 +223,7 @@
         private System.Windows.Forms.TextBox textBox4;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.TextBox textBox5;
+        private System.Windows.Forms.Button btn_sicnronizar;
     }
 }
 
